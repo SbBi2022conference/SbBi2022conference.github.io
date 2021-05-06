@@ -364,12 +364,12 @@ nav ul li:hover, nav ul li.active {
 
 .dropdown .dropbtn {
   font-size: 16px !important;  
-  border: none !important;
-  outline: none !important;
-  color: white !important;
-  padding: 14px 16px !important;
-  background-color: inherit !important;
-  font-family: inherit !important;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: transparent;
+  /* font-family: inherit !important; */
   margin: 0 !important;
 }
 
