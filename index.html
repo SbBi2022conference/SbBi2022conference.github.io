@@ -21,7 +21,7 @@
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
 		{% if node.order %}
-			{% if node.order === "first"%}
+			{% if node.order == "first"%}
 				<li>First</li>
 			{% endif %}
 		{% endif %}
