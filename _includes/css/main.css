@@ -363,14 +363,14 @@ nav ul li:hover, nav ul li.active {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  font-size: 16px !important;  
+  border: none !important;
+  outline: none !important;
+  color: white !important;
+  padding: 14px 16px !important;
+  background-color: inherit !important;
+  font-family: inherit !important;
+  margin: 0 !important;
 }
 
 .navbar {
@@ -396,6 +396,7 @@ nav ul li:hover, nav ul li.active {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
