@@ -18,18 +18,18 @@
   <div id="main">
 
     <nav><ul>
-<!--       {% for node in site.posts reversed %}
+      {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-		{% if node.order === "first"%}
+<!-- 		{% if node.order === "first"%}
         <li>Call for</li>
 		<ul>
-		{% endif %}		
+		{% endif %}		 -->
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-		{% if node.order === "last"%}		
+<!-- 		{% if node.order === "last"%}		
 		</ul>
-		{% endif %}		
+		{% endif %}		 -->
       {% endfor %}
- -->    </ul></nav>
+    </ul></nav>
 
 
     {% for page in site.posts reversed %}
