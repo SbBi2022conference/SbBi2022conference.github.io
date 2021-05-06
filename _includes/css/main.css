@@ -363,9 +363,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px !important;  
-  border: none;
-  outline: none;
+  /* font-size: 16px !important;   */
+  /* border: none; */
+  /* outline: none; */
   color: white;
   padding: 14px 16px;
   background-color: transparent;
