@@ -21,14 +21,15 @@
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
 		{% if node.order == "first" %}
 			<li>
-				<a href="#" title="Nav Link 1">Nav Link 2</a>
-				<ul>  
-					<li><a href="#" title="Sub Nav Link 1">Sub Nav Link 1</a></li>
-					<li><a href="#" title="Sub Nav Link 2">Sub Nav Link 2</a></li>
-					<li><a href="#" title="Sub Nav Link 3">Sub Nav Link 3</a></li>
-					<li><a href="#" title="Sub Nav Link 4">Sub Nav Link 4</a></li>
-					<li class="last"><a href="#" title="Sub Nav Link 5">Sub Nav Link 5</a></li>
-				</ul>                
+			  <div class="dropdown">
+				<button class="dropbtn">Dropdown
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="#">Link 1</a>
+				  <a href="#">Link 2</a>
+				  <a href="#">Link 3</a>
+				</div>                
 			</li>
 		{% endif %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
