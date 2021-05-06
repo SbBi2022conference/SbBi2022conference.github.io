@@ -17,19 +17,21 @@
 <body>
   <div id="main">
 
-    <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-		{% if node.order == "first" %}
-			<li>Call for</li>
-			<ul>
-		{% endif %}
-		{% if node.order == "last" %}
-			</ul>
-		{% endif %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-      {% endfor %}
-    </ul></nav>
+
+	<div class="navbar">
+	  <a href="#home">Home</a>
+	  <a href="#news">News</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Dropdown
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="#">Link 1</a>
+		  <a href="#">Link 2</a>
+		  <a href="#">Link 3</a>
+		</div>
+	  </div>
+	</div>
 
 
     {% for page in site.posts reversed %}
