@@ -33,20 +33,6 @@
 		{% endif %}
       {% endfor %}
 
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-		{% if node.order == "first" %}
-			<li>First</li>
-			<li>Call for</li>
-			<ul>
-		{% endif %}
-		{% if node.order == "last" %}
-			<li>Last</li>
-			</ul>
-		{% endif %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-      {% endfor %}
-
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
