@@ -381,8 +381,8 @@ nav ul li:hover, nav ul li.active {
   border: none;
   outline: none;
   color: white;
-  /* padding: 14px 16px; */
-  background-color: inherit;
+  padding: 14px 16px;
+  background-color: #333;
   font-family: inherit;
   margin: 0;
 }
