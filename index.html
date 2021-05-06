@@ -33,6 +33,27 @@
 	  </div>
 	</div>
 
+    <nav><ul>
+      {% for node in site.posts reversed %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+		{% if node.order == "first" %}
+			<li>
+				<a href="#" title="Nav Link 1">Nav Link 2</a>
+				<ul>  
+					<li><a href="#" title="Sub Nav Link 1">Sub Nav Link 1</a></li>
+					<li><a href="#" title="Sub Nav Link 2">Sub Nav Link 2</a></li>
+					<li><a href="#" title="Sub Nav Link 3">Sub Nav Link 3</a></li>
+					<li><a href="#" title="Sub Nav Link 4">Sub Nav Link 4</a></li>
+					<li class="last"><a href="#" title="Sub Nav Link 5">Sub Nav Link 5</a></li>
+				</ul>                
+			</li>
+		{% endif %}
+        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+		{% if node.order == "last" %}
+		{% endif %}
+      {% endfor %}
+    </ul></nav>
+
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
