@@ -32,6 +32,8 @@
 	  </div> 
 		{% endif %}
       {% endfor %}
+	</div>
+	</div>
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
