@@ -356,23 +356,6 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  /* font-size: 16px !important;   */
-  /* border: none; */
-  /* outline: none; */
-  color: white;
-  padding: 14px 16px;
-  background-color: transparent;
-  /* font-family: inherit !important; */
-  margin: 0 !important;
-}
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -386,6 +369,24 @@ nav ul li:hover, nav ul li.active {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
