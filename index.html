@@ -20,8 +20,11 @@
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-		{% if node.order == "first %}
+		{% if node.order == "first" %}
 			<li>First</li>
+		{% endif %}
+		{% if node.order == "last" %}
+			<li>Last</li>
 		{% endif %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
