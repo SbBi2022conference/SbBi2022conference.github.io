@@ -17,19 +17,35 @@
 <body>
   <div id="main">
 	<div class="navbar">
-	  <a href="#home">Home</a>
-	  <a href="#news">News</a>
-	  <div class="dropdown">
-		<button class="dropbtn">Dropdown 
-		  <i class="fa fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-		  <a href="#">Link 1</a>
-		  <a href="#">Link 2</a>
-		  <a href="#">Link 3</a>
+      {% for node in site.posts reversed %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+		{% if node.order == "first" %}
+		  <div class="dropdown">
+			<button class="dropbtn">Dropdown 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+		{% endif %}
+        <a href="#{{id}}">{{node.title}}</a>
+		{% if node.order == "last" %}
 		</div>
 	  </div> 
-	</div>
+		{% endif %}
+      {% endfor %}
+
+      {% for node in site.posts reversed %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+		{% if node.order == "first" %}
+			<li>First</li>
+			<li>Call for</li>
+			<ul>
+		{% endif %}
+		{% if node.order == "last" %}
+			<li>Last</li>
+			</ul>
+		{% endif %}
+        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+      {% endfor %}
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
