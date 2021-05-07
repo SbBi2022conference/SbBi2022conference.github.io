@@ -111,7 +111,7 @@ hr {
 
 /* ----- top menu ----- */
 
-{% assign navborder = 3 %}
+/* {% assign navborder = 3 %}
 {% assign navborder_active = 6 %}
 
 nav {
@@ -161,7 +161,7 @@ nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
 }
-
+ */
 
 /* ----- sections/articles ----- */
 
