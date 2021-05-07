@@ -344,7 +344,7 @@ nav ul li:hover, nav ul li.active {
     margin-top: -14px;
   }
   .icon-title {
-	color: red;	  
+	color: red !important;	  
   }
   
   .sectiondivider h5 {
