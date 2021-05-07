@@ -2,7 +2,7 @@
 title: "Compositions"
 bg: '#373A36'
 color: white
-fa-icon: music
+fa-icon: music-square-o
 type: "sub"
 order: "last"
 ---
