@@ -343,10 +343,6 @@ nav ul li:hover, nav ul li.active {
     font-size: 100px;
     margin-top: -14px;
   }
-  .icon-title {
-	color: red !important;	  
-  }
-  
   .sectiondivider h5 {
     font-size:15px;
     bottom:30px;
