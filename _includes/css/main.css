@@ -342,6 +342,7 @@ nav ul li:hover, nav ul li.active {
   .sectiondivider .fa-stack {
     font-size: 100px;
     margin-top: -14px;
+	color: #1BA098;
   }
   .sectiondivider h5 {
     font-size:15px;
