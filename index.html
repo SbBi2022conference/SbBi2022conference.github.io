@@ -16,7 +16,7 @@
 </head>
 <body>
   <div id="main">
-	<div class="navbar navbar-fixed-top">
+	<div class="navbar">
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
 		{% if node.order == "first" %}
@@ -70,8 +70,6 @@
   </div>
 
 {% include analytics.html %}
-
-</body>
 <script>
 window.onscroll = function() {myFunction()};
 
@@ -86,5 +84,6 @@ function myFunction() {
   }
 }
 </script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</body>
 </html>
