@@ -21,15 +21,18 @@
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
 		{% if node.order == "first" %}
-		  <div class="dropdown">
-			<button  type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calls 
-			</button>
-			<div class="dropdown-content">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Calls
+          </a>
+		<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 		{% endif %}
+		{% if node.type == "sub" %}
+		<a class="dropdown-item" href="#{{id}}">{{node.title}}</a>
+		{% else %}
         <a href="#{{id}}">{{node.title}}</a>
+		{% endif %}
 		{% if node.order == "last" %}
-		</div>
-	  </div> 
+		</ul>
 		{% endif %}
       {% endfor %}
 	</div>
