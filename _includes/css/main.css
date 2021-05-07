@@ -417,3 +417,17 @@ nav ul li:hover, nav ul li.active {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
