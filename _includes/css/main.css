@@ -368,6 +368,7 @@ nav ul li:hover, nav ul li.active {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: block;  
 }
 
 
