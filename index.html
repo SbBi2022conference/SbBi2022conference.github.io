@@ -35,7 +35,9 @@
 	</div>
 	</div>
 	
-	<div class="content">
+    <div class="scrollable" 
+            style="padding:15px 15px 4500px;">
+	
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
@@ -66,7 +68,6 @@
         {{ foottext | markdownify }}
       </div>
     </div>
-	</div>
   </div>
 
 {% include analytics.html %}
@@ -84,6 +85,7 @@ function myFunction() {
   }
 }
 </script>
+
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="site.js"></script>
