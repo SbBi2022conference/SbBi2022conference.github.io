@@ -22,7 +22,7 @@
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
 		{% if node.order == "first" %}
-		  <div class="dropdown">
+		  <div>
 			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calls 
 			  <i class="fa fa-caret-down"></i>
 			</button>
