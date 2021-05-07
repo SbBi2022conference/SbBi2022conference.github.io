@@ -16,7 +16,7 @@
 </head>
 <body>
   <div id="main">
-	<div class="navbar">
+	<div class="navbar navbar-fixed-top">
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
 		{% if node.order == "first" %}
