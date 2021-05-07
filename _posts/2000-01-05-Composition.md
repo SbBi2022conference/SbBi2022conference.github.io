@@ -1,6 +1,6 @@
 ---
 title: "Compositions"
-bg: '#373A36'
+bg: '#051622'
 color: white
 fa-icon: music
 type: "sub"
