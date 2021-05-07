@@ -219,7 +219,7 @@ nav ul li:hover, nav ul li.active {
 .sectiondivider .fa-stack {
   font-size: 130px;
   position: static;
-  margin-top: -8px;
+  margin-top: -20px;
 }
 .sectiondivider .fa-circle { color: #fff; }
 
@@ -315,9 +315,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 /* tiny size (phones) */
-/* @media only screen and (max-width: 380px) { */
-  /* nav ul li { min-width:90px; line-height:20px; } */
-/* } */
+@media only screen and (max-width: 380px) {
+  nav ul li { min-width:90px; line-height:20px; }
+}
 
 /* anything not desktop */
 @media only screen and (max-width: 767px) {
