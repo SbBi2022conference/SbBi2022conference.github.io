@@ -326,6 +326,8 @@ nav ul li:hover, nav ul li.active {
 	.container h3 { font-size: 14px; }
 	.container h4 { font-size: 12px; }
 	.container p { font-size: 10px; }
+	.container li { font-size: 10px; }
+
 
   .section { padding:130px 0; }
   .sectiondivider {
