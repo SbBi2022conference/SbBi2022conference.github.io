@@ -185,7 +185,7 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:80px 40px 210px 40px;
+  padding:80px 140px 210px 140px;
   background:url(img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
