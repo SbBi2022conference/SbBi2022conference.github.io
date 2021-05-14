@@ -74,10 +74,8 @@
             <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
           </span>
         </div>
-		{% elseif page.title == "Overview" %}
-	  <div id="{{id}}" class="section22 p-{{id}}">
 		{% else %}
-	  <div id="{{id}}" class="section p-{{id}}">
+	  <div id="{{id}}" class="section22 p-{{id}}">
         {% endif %}
         <div class="container {{ page.style }}">
           {{ page.content }}
