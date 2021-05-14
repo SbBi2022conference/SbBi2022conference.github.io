@@ -22,5 +22,5 @@ Submission Guidelines: Piece should be submitted via a WeTransfer link uploaded 
 Electroacoustic compositions should be submitted at 44.1kHz sampling rate. Multi-channel works are permitted, but due to performance restrictions, must not require more than 8 channels. Multi-channel submissions should be a stereo downmix; full multi-channel will be requested upon acceptance. 
 
 <div class="text-center">
-<a href="https://forms.gle/Yf7m4unNjkNcoUta6" class="btn vspace btn-success btn-lg mr-1" role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> Application Portal</a>
+<a href="https://forms.gle/Yf7m4unNjkNcoUta6" class="btn vspace btn-success mr-1" role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> Application Portal</a>
 </div>
