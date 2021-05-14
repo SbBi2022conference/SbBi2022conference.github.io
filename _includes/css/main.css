@@ -185,10 +185,7 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding-top: 80px;
-  padding-right: 0px;
-  padding-bottom: 210px;
-  padding-left: 0px;
+  padding:80px 0 210px 0;
   background:url(img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
@@ -348,7 +345,6 @@ nav ul li:hover, nav ul li.active {
 
 
   .section { padding:130px 0; }
-  .section22 { padding:40px 0 210px 0; }
   .sectiondivider {
     width:200px;
     height:200px;
