@@ -21,6 +21,6 @@ Electroacoustic compositions (no more than 10 minutes) are invited for performan
 Submission Guidelines: Piece should be submitted via a WeTransfer link uploaded to the application portal. It should be accompanied by a brief text of no more than 250 words outlining poetic and technical aspects of the piece. Please also provide the following information when submitting your proposal through the application portal: name, email address, institutional affiliation, programme of study, year of composition.
 Electroacoustic compositions should be submitted at 44.1kHz sampling rate. Multi-channel works are permitted, but due to performance restrictions, must not require more than 8 channels. Multi-channel submissions should be a stereo downmix; full multi-channel will be requested upon acceptance. 
 
-<div class="text-right mb-3">
+<div class="text-center">
 <a href="https://forms.gle/Yf7m4unNjkNcoUta6" class="btn vspace btn-success btn-lg mr-1" role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> Application Portal</a>
 </div>
