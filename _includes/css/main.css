@@ -199,6 +199,9 @@ nav ul li:hover, nav ul li.active {
 	margin-bottom: 5px;
 }
 
+.vspace {
+	margin-top: 10px;
+}
 
 #footer {
   padding: 8px 0;
