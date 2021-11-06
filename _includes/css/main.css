@@ -58,6 +58,10 @@ img {
   vertical-align:middle;
 }
 
+schedule {
+  padding: 0px 0px 10px 0px;
+}
+
 hr {
   margin:60px auto;
   width:50%;
