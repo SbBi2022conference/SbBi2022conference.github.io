@@ -1,6 +1,6 @@
-# BFE-RMA-conference-2022.github.io
+# SbBi2022conference.github.io
 
-This is the website associated with the [Annual BFE/RMA Conference 2022](BFE-RMA-conference-2022.github.io), sponsored jointly by the [British Forum for Ethnomusicology](http://www.bfe.org.uk/) and the [Royal Musical Association](https://www.rma.ac.uk/).
+This is the website associated with the [Antimonium and Bismuth in Natural Environments Conference 2022](SbBi2022confer2nce.github.io), organised jointly by Dr Juro Majzlan [University of Jena](https://www.uni-jena.de/en) and Dr Montserrat Filella [University of Geneva](https://www.unige.ch/).
 
 ## Credit
 This website was copied from [this repository](https://github.com/t413/SinglePaged).
