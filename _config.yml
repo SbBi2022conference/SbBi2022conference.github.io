@@ -14,9 +14,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "BFE/RMA Research Students’ Conference 2022"
-keywords:    "Automatic mixing, intelligent music production, audio engineering, conference, workshop"
-description: "British Forum for Ethnomusicology and Royal Musical Association Research Students’ Conference"
+title:       "Antimony and Bismuth in Natural Environments Conference 2022"
+keywords:    "antimony, bismuth, conference, workshop"
+description: "Antimonium and Bismuth in Natural Environments Conference 2022"
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/favicon.png"
