@@ -1,7 +1,4 @@
 
-<p>Email: <a href = "mailto: rsc2022@plymouth.ac.uk">rsc2022@plymouth.ac.uk</a> </p>
+<p>Email: <a href = "mailto: juraj.majzlan@uni-jena.de">juraj.majzlan@uni-jena.de</a> - <a href = "mailto: montserrat.filella@unige.ch">montserrat.filella@unige.ch</a></p>
 &mdash;
-BFE/RMA Research Student Conference - Hosted by [University of Plymouth](https://www.plymouth.ac.uk/)
-&mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-
+Antimonium and Bismuth in Natural Environments Conference - Banská Štiavnica
