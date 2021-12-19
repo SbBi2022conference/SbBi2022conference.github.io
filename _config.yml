@@ -14,9 +14,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Antimony and Bismuth in Natural Environments Conference 2022"
+title:       "Antimony and Bismuth in Natural and Engineered Systems Conference 2022"
 keywords:    "antimony, bismuth, conference, workshop"
-description: "Antimonium and Bismuth in Natural Environments Conference 2022"
+description: "Antimonium and Bismuth in Natural and Engineered Systems Conference 2022"
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/favicon.png"
