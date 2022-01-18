@@ -2,7 +2,7 @@
 title: "Registration"
 bg: '#051622'
 color: white
-fa-icon: note
+fa-icon: pad
 ---
 # Registration
 
@@ -13,6 +13,8 @@ Please register below.
 <div align="center">
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSelUYP4soZoXnQ5nTyGOUSD9vPDzPeWbFvYKkJEw3qdN_33cQ/viewform?usp=pp_url" class="btn vspace btn-success btn-lg mr-1" role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> Register here</a>
 </div>
+
+
 
 Fees 180 €
 
