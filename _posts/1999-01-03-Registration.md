@@ -2,7 +2,7 @@
 title: "Registration"
 bg: '#051622'
 color: white
-fa-icon: circle-check
+fa-icon: vcard
 ---
 # Registration
 
