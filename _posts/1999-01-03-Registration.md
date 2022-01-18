@@ -15,7 +15,9 @@ Please register below.
 </div>
 
 <p align="center">
-Fees 180 €
+</p>
+<p >
+Fees 180 €</br>
 They include coffee breaks, light lunches and the conference dinner
 Payment by bank transfer only to:
 IBAN: DE40830944540042826308
