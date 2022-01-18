@@ -2,7 +2,7 @@
 title: "Registration"
 bg: '#051622'
 color: white
-fa-icon: vcard
+fa-icon: notepad
 ---
 # Registration
 
