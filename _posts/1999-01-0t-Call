@@ -1,0 +1,15 @@
+---
+title: "Call"
+bg: '#646C79'
+color: white
+---
+# Call
+
+<p align="center">
+This is a Call for posters and oral presentations. An exmple of abstract is shown through the button Model Abstract. To submit an abstract, please use the button Submit
+</p>
+
+<div align="center">
+<a href="docs/xxx.pdf" class="btn vspace btn-dark btn-lg mr-1" role="button">Model Abstract</a>
+<a href="https://docs.google.com/forms/d/1jsq9I6GZ7LD1uyvzlneoKcI5Bf5A6O2m_eA0ztKi7zg/edit?usp=sharing" class="btn vspace btn-success btn-lg mr-1" role="button"><i class="fa fa-arrow-right" aria-hidden="true"></i> Submit</a>
+</div>
