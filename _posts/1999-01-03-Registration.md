@@ -22,11 +22,8 @@ They include coffee breaks, light lunches and the conference dinner
 
 Payment by bank transfer only to:
 
-IBAN: DE40830944540042826308
-
-SWIFT: GENODEF1RUJ
-
-Account holder: Juraj Majzlan
-
+IBAN: DE40830944540042826308  
+SWIFT: GENODEF1RUJ  
+Account holder: Juraj Majzlan  
 Bank: Volksbank Gera-Jena-Rudolstadt, Johannispl. 7, 07743 Jena, Germany
 
