@@ -2,7 +2,7 @@
 title: "Registration"
 bg: '#051622'
 color: white
-fa-icon: pad
+fa-icon: calendar-o
 ---
 # Registration
 
