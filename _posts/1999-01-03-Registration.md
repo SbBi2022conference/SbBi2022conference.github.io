@@ -2,6 +2,7 @@
 title: "Registration"
 bg: '#646C79'
 color: white
+fa-icon: circle-check
 ---
 # Registration
 
