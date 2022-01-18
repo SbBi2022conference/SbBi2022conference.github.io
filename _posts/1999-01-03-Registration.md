@@ -17,11 +17,11 @@ Please register below.
 <p align="center">
 </p>
 <p >
-Fees 180 €</br>
-They include coffee breaks, light lunches and the conference dinner
-Payment by bank transfer only to:
-IBAN: DE40830944540042826308
-SWIFT: GENODEF1RUJ
-Account holder: Juraj Majzlan
+Fees 180 €\
+They include coffee breaks, light lunches and the conference dinner\
+Payment by bank transfer only to:\
+IBAN: DE40830944540042826308\
+SWIFT: GENODEF1RUJ\
+Account holder: Juraj Majzlan\
 Bank: Volksbank Gera-Jena-Rudolstadt, Johannispl. 7, 07743 Jena, Germany
 </p>
