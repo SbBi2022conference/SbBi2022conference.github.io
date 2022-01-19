@@ -16,9 +16,9 @@ Please register below.
 
 
 
-Fees 180 €
+The fees are 180 €.
 
-They include coffee breaks, light lunches and the conference dinner
+They include coffee breaks, light lunches and the conference dinner.
 
 Payment by bank transfer only to:
 
